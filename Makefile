@@ -1,2 +1,2 @@
 start:
-	streamlit run demo/app.py --server.port 8501
+	streamlit run demo/Welcome.py --server.port 8501
