@@ -3,7 +3,6 @@ import streamlit_authenticator as stauth
 import yaml
 from yaml.loader import SafeLoader
 
-# from demo.utils.auth import authenticator
 
 # ------------- auth ------------- #
 # this can't be in another file
