@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "streamlit-auth-demo"
+version = "0.1.0"
+description = ""
+authors = ["Karn Wong <karn@karnwong.me>"]
+readme = "README.md"
+packages = [
+    {include = "demo"}
+]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+streamlit = "^1.31.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
